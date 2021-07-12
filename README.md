@@ -1,1 +1,0 @@
-https://MarinaPresmytskaia.github.io/rsschool-cv/cv

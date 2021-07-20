@@ -105,3 +105,17 @@ a:active {
 .logo-img:active {
   background-color: var(--main-grey);
 }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .cv-page {
+    font-size: 14px;
+  }
+
+  .header, footer {
+    flex-direction: column;
+  }
+
+  p {
+    text-align: justify;
+  }
+}

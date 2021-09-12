@@ -24,6 +24,7 @@ body {
   max-width: 1024px;
   padding-left: 2em;
   padding-right: 2em;
+  height: 100%;
 }
 
 .header {
@@ -113,6 +114,8 @@ a:active {
 @media (min-width: 320px) and (max-width: 800px) {
   .cv-page {
     font-size: 14px;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
   .header, footer {

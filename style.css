@@ -27,15 +27,28 @@ body {
   height: 100%;
 }
 
-.header {
+.name-container {
   display: flex;
-  padding-top: 2em;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;  
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header {  
+  padding-top: 2em;  
 }
 
 .name {
-  margin: 0 auto;
+  margin: auto 0;
 }
 
 h2.inform {
@@ -44,8 +57,7 @@ h2.inform {
 
 .img {
   border: 2px solid var(--main-black);
-  border-radius: 5px;
-  margin: 0 auto;
+  border-radius: 5px; 
   height: 300px;
   width: 300px;
 }
@@ -118,8 +130,20 @@ a:active {
     padding-right: 1em;
   }
 
+  .navbar ul {
+    flex-direction: column;
+  }
+
+  .navbar ul li {
+    padding-top: 5px;
+  }
+
   .header, footer {
     flex-direction: column;
+  }
+
+  .name-container {
+    display: block;
   }
 
   p {

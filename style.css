@@ -7,7 +7,11 @@
 * {
   box-sizing: border-box;
   margin: 0em;
-  padding: 0em;  
+  padding: 0em;    
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0 auto;
   max-width: 1024px;
   padding-left: 2em;

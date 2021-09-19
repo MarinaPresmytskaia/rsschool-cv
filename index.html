@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+    <script defer src="script.js"></script>
   </head>
 
   <body>
@@ -18,10 +19,12 @@
             <h1>Marina Presmytskaya</h1>
             <h2 class="inform">Junior JS Developer</h2>
           </div>
-          <img class="img" src="img/myfoto.jpg" alt="Foto Maryna Presmytskaya" />
+          <img class="img" src="assets/img/myfoto.jpg" alt="Foto Maryna Presmytskaya" />
         </div>
-        <nav class="navbar">
-          <ul>
+        <nav class="navbar">         
+          <div id="open-burger-menu" class="open-burger-menu btn hide"></div>
+          <div id="close-burger-menu" class="close-burger-menu btn hide"></div>               
+          <ul id="menu" class="menu">
             <li><a href="#about-me">About me</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
@@ -59,13 +62,13 @@
           <li>HTML and CSS Tutorials on w3schools</li>
           <li><a href="https://app.rs.school/certificate/y3k9hfib">RS Schools «JavaScript/Front-end. Stage 0»</a></li>        
         </ul>        
-        <a href="https://github.com/MarinaPresmytskaia"><h2>Code example</h2></a>        
+        <a href="https://github.com/MarinaPresmytskaia"><h3>Code example</h3></a>        
       </section>
       </main>
 
       <footer>
         <div class="contact-me" id="contacts">
-        <h3>Contact:</h3>
+        <h4>Contacts:</h4>
         <ul>
           <li><i class="fas fa-envelope"></i> mpresmytskaia@gmail.com</li>
           <li><a href="https://github.com/MarinaPresmytskaia"><i class="fab fa-github"></i> github.com/MarinaPresmytskaia</a></li>
